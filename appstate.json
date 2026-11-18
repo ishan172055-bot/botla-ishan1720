@@ -1,37 +1,146 @@
-╔══════════════════════════════════════════════╗
-║  ⚠️ এই সব লেখা কেটে দিয়ে আপনার ফেসবুক        ║
-║  আইডির কুকি অ্যাড করুন এখানে।                 ║
-╚══════════════════════════════════════════════╝
-
-🔐 সতর্কতা (আগে পড়ুন)
-• আপনার ফেসবুক কুকি কারও সাথে শেয়ার করবেন না। কুকি দিয়ে আপনার আইডিতে পাসওয়ার্ড ছাড়াই ঢোকা যায়।
-• কুকি কোনো পাবলিক জায়গায়, স্ক্রিনশটে বা পাবলিক ফর্কে রাখবেন না।
-• সম্ভব হলে মূল আইডির বদলে আলাদা একটি আইডি ব্যবহার করুন।
-
-📋 ব্যবহারের নিয়ম (ধাপে ধাপে)
-
-ধাপ ১: ফর্ক করুন
-প্রজেক্টটি আপনার অ্যাকাউন্টে Fork করুন এবং ফর্কটি Private রাখুন।
-
-ধাপ ২: ফেসবুক কুকি সংগ্রহ করুন
-• ব্রাউজারে ফেসবুকে লগইন করুন।
-• Developer Tools বা কুকি এক্সটেনশন দিয়ে কুকি কপি করুন।
-
-ধাপ ৩: কুকি বসান
-• [cookie.txt / config ফাইল] খুলুন।
-• আগের লেখা মুছে আপনার কুকি পেস্ট করুন।
-• ফাইল Save করুন।
-
-ধাপ ৪: UID বসান
-• [uid.txt / config ফাইল] খুলুন।
-• নির্ধারিত জায়গায় [UID] বসান। প্রতি লাইনে একটি করে UID দিন।
-• Save করুন।
-
-ধাপ ৫: রান করুন
-• Run বাটনে ক্লিক করুন, অথবা টার্মিনালে লিখুন:
-  [python main.py]
-• আউটপুটে সফল মেসেজ দেখা গেলে কাজ হচ্ছে।
-
-❗ সমস্যা হলে
-• কুকি এক্সপায়ার হয়ে গেলে ধাপ ২ থেকে আবার নতুন কুকি নিন।
-• UID ভুল হলে ধাপ ৪ আবার চেক করুন।
+[
+    {
+        "key": "dbln",
+        "value": "%7B%2261596595703507%22%3A%22yDAnxlz5%22%2C%2261596261613757%22%3A%22MbPG5B4S%22%2C%2261596743576876%22%3A%22IiQxS9tz%22%7D",
+        "domain": "facebook.com",
+        "path": "/login/device-based/",
+        "hostOnly": false,
+        "creation": "2026-11-18T02:01:13.432Z",
+        "lastAccessed": "2026-11-18T02:01:13.433Z"
+    },
+    {
+        "key": "datr",
+        "value": "SALfah-aDit04B9sVp161hI_",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2026-11-18T02:01:13.433Z",
+        "lastAccessed": "2026-11-18T02:01:13.433Z"
+    },
+    {
+        "key": "sb",
+        "value": "SALfagPecDykLb8zUvy3G1b9",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2026-11-18T02:01:13.433Z",
+        "lastAccessed": "2026-11-18T02:01:13.433Z"
+    },
+    {
+        "key": "vpd",
+        "value": "v1%3B801x450x2.4000000953674316",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2026-11-18T02:01:13.433Z",
+        "lastAccessed": "2026-11-18T02:01:13.433Z"
+    },
+    {
+        "key": "ps_l",
+        "value": "1",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2026-11-18T02:01:13.433Z",
+        "lastAccessed": "2026-11-18T02:01:13.433Z"
+    },
+    {
+        "key": "ps_n",
+        "value": "1",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2026-11-18T02:01:13.433Z",
+        "lastAccessed": "2026-11-18T02:01:13.433Z"
+    },
+    {
+        "key": "locale",
+        "value": "en_GB",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2026-11-18T02:01:13.433Z",
+        "lastAccessed": "2026-11-18T02:01:13.433Z"
+    },
+    {
+        "key": "dpr",
+        "value": "2.4000000953674316",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2026-11-18T02:01:13.433Z",
+        "lastAccessed": "2026-11-18T02:01:13.433Z"
+    },
+    {
+        "key": "pas",
+        "value": "61595648700745%3AJ8Kfb3cET3%2C61596093116146%3As8ldD3cJd0%2C61596042093860%3A466OquKDC0%2C61596595703507%3AZp2XfKMHV9%2C61596261613757%3AbZ8aEqvmlM%2C61596743576876%3AjKFFhS2RSI",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2026-11-18T02:01:13.433Z",
+        "lastAccessed": "2026-11-18T02:01:13.433Z"
+    },
+    {
+        "key": "m_pixel_ratio",
+        "value": "2.4000000953674316",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2026-11-18T02:01:13.433Z",
+        "lastAccessed": "2026-11-18T02:01:13.433Z"
+    },
+    {
+        "key": "wd",
+        "value": "450x975",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2026-11-18T02:01:13.433Z",
+        "lastAccessed": "2026-11-18T02:01:13.433Z"
+    },
+    {
+        "key": "c_user",
+        "value": "61596743576876",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2026-11-18T02:01:13.433Z",
+        "lastAccessed": "2026-11-18T02:01:13.433Z"
+    },
+    {
+        "key": "xs",
+        "value": "43%3AdMfcBh_MgciqiQ%3A2%3A1794967259%3A-1%3A-1",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2026-11-18T02:01:13.433Z",
+        "lastAccessed": "2026-11-18T02:01:13.433Z"
+    },
+    {
+        "key": "fr",
+        "value": "0rSA5YNgWLyYqEhbi.AWcmuewsVWKyBLYCBghqTOtKTvc3GVh86QGBDozmZPIZu34B4uM.Bq5r8J..AAA.0.0.Bq_Qbj.AWdova_IPPfHG2dIVb91EmaVH88",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2026-11-18T02:01:13.433Z",
+        "lastAccessed": "2026-11-18T02:01:13.433Z"
+    },
+    {
+        "key": "fbl_st",
+        "value": "101024746%3BT%3A29916121",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2026-11-18T02:01:13.433Z",
+        "lastAccessed": "2026-11-18T02:01:13.433Z"
+    },
+    {
+        "key": "wl_cbv",
+        "value": "v2%3Bclient_version%3A3359%3Btimestamp%3A1794967267",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2026-11-18T02:01:13.433Z",
+        "lastAccessed": "2026-11-18T02:01:13.433Z"
+    }
+]
